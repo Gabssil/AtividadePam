@@ -1,5 +1,7 @@
 package funcoes
 
+import kotlin.math.sqrt
+
 // Função para calcular a área de um triângulo com base e altura
 fun areaTriangulo(base: Int, altura: Int): Double {
     return (base * altura) / 2.0
